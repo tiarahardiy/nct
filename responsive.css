@@ -1,0 +1,164 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1{
+    font-size:32px;
+  }
+   .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+   }
+   .heading h2{
+     font-size:20px;
+   }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+ footer {
+    text-align: center;
+  }
+  
+  
+  .top-wrapper {
+    text-align: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .top-wrapper1 {
+    text-align: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .top-wrapper1 h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper1 p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .top-wrapper2 {
+    text-align: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .top-wrapper2 h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper2 p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .top-wrapper3 {
+    text-align: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header-right {
+    float: right;
+    margin-right: 5px;
+  }
+  
+  .header-right a {
+    top:0;
+    z-index:10;
+    line-height: 20px;
+    padding: 20px 15px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+
+.img-history img{
+  width:250px;
+}
+.img-history1 img{
+  width:250px;
+}
+
+.img-profil img{
+  width:350px;
+}
+.name img{
+  width:250px
+
+}
+.container p {
+  font-size:15px;
+}
+
+.name h2{
+  font-size: 15px;
+}
+
+input, textarea{
+  width: 200px;
+}
+.txt-history{
+  font-size:15px;
+}
+
+.txt-profil{
+  font-size: 10px;
+}
+
+[style*="--aspect-ratio"] > :first-child {
+  width: 100%;
+}
+[style*="--aspect-ratio"] > img {  
+  height: auto;
+}
+@supports (--custom:property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+  [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }  
+  [style*="--aspect-ratio"] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }  
+}
+
+
+
+}
+
+
+
